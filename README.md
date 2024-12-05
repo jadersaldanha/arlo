@@ -14,6 +14,13 @@ If you are running on windows just run the command maestro --host IPV4ADDRESS te
 
 Other platforms just run maestro test StartEditingaRoute.yaml it will call the first test of editing a route after executing the login process conected to this flow.
 
-Some Videos:
+In the following videos I will show you how I was able to run the emulator and being able to comunicate with maestro through command line interface.
+I show you how I was able to use maestro studio with AI on the browser and how I run the flows I have written in my local machine in the local execution.
 
 https://drive.google.com/file/d/1hwi01Ifuw2fLStwQx5_a9exmdNsymBot/view?usp=sharing
+
+https://drive.google.com/file/d/1PlpeHVkS1NIimPIZlQ_LrvNIoW4NpWIg/view?usp=sharing
+
+https://drive.google.com/file/d/1rYnHd1mJdwILyRsnX8JKpUZZf85VQ1VD/view?usp=sharing
+
+https://drive.google.com/file/d/1rCDB0BHCi-W1WWIbZgpoer1c-23w06LT/view?usp=sharing
