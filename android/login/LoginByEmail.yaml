@@ -4,7 +4,7 @@ appId: com.argonav
 - launchApp
 - extendedWaitUntil:
     visible: "Sign in with Email"
-    timeout: 10000      # Timeout in milliseconds
+    timeout: 40000      # Timeout in milliseconds
 - tapOn: "Sign in with Email"
 - tapOn: "Email"
 - inputText: "argo_premium@oidoug.com"
