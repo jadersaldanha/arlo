@@ -1,0 +1,14 @@
+appId: com.argonav
+---
+- runScript: login.js
+- launchApp
+- tapOn:
+    id: ${output.login.signInButton}
+- tapOn:
+    id: ${output.login.email}
+- inputText: "argo_premium@oidoug.com"
+- tapOn:
+    id: ${output.login.password}
+- inputText: "Argo12345"
+- tapOn:
+    id: ${output.login.loginBtn}
