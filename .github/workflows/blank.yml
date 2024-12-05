@@ -25,7 +25,7 @@ jobs:
       - name: Download file
         uses: playeveryware/action-google-drive-download@v1
         with:
-          token: ${{ steps.google-access-token.outputs.token }}
+          token: ${{ steps.google-token.outputs.token }}
           file-url: 'https://drive.google.com/file/d/1awy6ufig25dGHLyPRaz_Fkd7c1930NS-/view?usp=sharing'
           path: test.bin
       - name: Show file information
