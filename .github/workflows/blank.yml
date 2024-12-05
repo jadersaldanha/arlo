@@ -13,5 +13,5 @@ jobs:
       - uses: mobile-dev-inc/action-maestro-cloud@v1.9.6
         with:
           api-key: ${{ secrets.MAESTRO_CLOUD_API_KEY }}
-          app-binary-id: "180a59b33ea84d0576ce1310fdb5b1557d712cd5"
+          app-binary-id: 180a59b33ea84d0576ce1310fdb5b1557d712cd5
           workspace: myflos/
