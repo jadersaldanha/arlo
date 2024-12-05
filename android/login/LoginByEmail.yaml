@@ -4,7 +4,7 @@ appId: com.argonav
 - launchApp
 - extendedWaitUntil:
     visible: ${output.login.signInButton} # or any other selector
-    timeout: 10000      # Timeout in milliseconds
+    timeout: 50000      # Timeout in milliseconds
 - tapOn:
     id: ${output.login.signInButton}
 - tapOn:

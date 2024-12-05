@@ -10,7 +10,7 @@ jobs:
 
     strategy:
       fail-fast: false
-      max-parallel: 4
+      max-parallel: 1
       matrix:
         api-level: [33, 31, 30, 29]
         # ^^^ from: https://cloud.mobile.dev/reference/device-configuration#android
