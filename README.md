@@ -10,3 +10,7 @@ If you are running on windows just run the command maestro --host IPV4ADDRESS te
 
 
 Other platforms just run maestro test StartEditingaRoute.yaml it will call the first test of editing a route after executing the login process conected to this flow.
+
+Some Videos:
+
+https://drive.google.com/file/d/1hwi01Ifuw2fLStwQx5_a9exmdNsymBot/view?usp=sharing
