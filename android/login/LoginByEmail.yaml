@@ -1,6 +1,6 @@
 appId: com.argonav
 ---
-- runScript: login/login.js
+- runScript: Login.js
 - launchApp
 - tapOn:
     id: ${output.login.signInButton}
