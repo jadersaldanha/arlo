@@ -2,13 +2,12 @@ appId: com.argonav
 ---
 - runScript: Login.js
 - launchApp
-- tapOn:
-    id: ${output.login.signInButton}
-- tapOn:
-    id: ${output.login.email}
+- extendedWaitUntil:
+    visible: "Sign in with Email"
+    timeout: 10000      # Timeout in milliseconds
+- tapOn: "Sign in with Email"
+- tapOn: "Email"
 - inputText: "argo_premium@oidoug.com"
-- tapOn:
-    id: ${output.login.password}
+- tapOn: "Password"
 - inputText: "Argo12345"
-- tapOn:
-    id: ${output.login.loginBtn}
+- tapOn: "Sign In"

@@ -1,6 +1,5 @@
 appId: com.argonav
 ---
 - runFlow: login/LoginByEmail.yaml
-- launchApp
 - tapOn: ""
 - tapOn: "DISMISS"
