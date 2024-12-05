@@ -6,5 +6,7 @@ This entire project was built on maestro framework using the maestro cloud infra
 If you would like to run the test locally just follow the documentation's reference on downloading and executing the referred local configuration:
 https://maestro.mobile.dev/getting-started/installing-maestro
 
-If running on windows just run the command maestro --host <IPV4ADDRESS> test StartEditingaRoute.yaml
-Other plataforms just run maestro test StartEditingaRoute.yaml it will call the first test of editing a route after executing the login process conected to this flow.
+If you are running on windows just run the command maestro --host IPV4ADDRESS test StartEditingaRoute.yaml
+
+
+Other platforms just run maestro test StartEditingaRoute.yaml it will call the first test of editing a route after executing the login process conected to this flow.
