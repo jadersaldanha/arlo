@@ -2,6 +2,8 @@ appId: com.argonav
 ---
 - runScript: Login.js
 - launchApp
+- assertVisible: 
+    id: ${output.login.signInButton}
 - tapOn:
     id: ${output.login.signInButton}
 - tapOn:
