@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       app: app/build/outputs/apk/debug
-    jobs:
-  test_access_token:
-    runs-on: ...
     steps:
       - id: google-token
         uses: playeveryware/action-google-access-token@v1
