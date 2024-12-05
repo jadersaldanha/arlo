@@ -5,8 +5,6 @@ appId: com.argonav
 - extendedWaitUntil:
     visible: ${output.login.signInButton} # or any other selector
     timeout: 10000      # Timeout in milliseconds
-- assertVisible: 
-    id: ${output.login.signInButton}
 - tapOn:
     id: ${output.login.signInButton}
 - tapOn:
