@@ -11,22 +11,17 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       app: app/build/outputs/apk/debug
+    jobs:
+  test_access_token:
+    runs-on: ...
     steps:
-      - name: Acquire Google access token
-        id: google-access-token
+      - id: google-token
         uses: playeveryware/action-google-access-token@v1
         with:
           credentials: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS }}
           scope: 'https://www.googleapis.com/auth/drive.readonly'
 
-      - name: Download file
-        uses: playeveryware/action-google-drive-download@v1
-        with:
-          token: ${{ steps.google-access-token.outputs.token }}
-          file-url: 'https://drive.google.com/file/d/11yYUcsBalcR5-Hq4XEIL4Coa9njgkSpu/view?usp=sharing'
-          path: test.bin
-
-      - name: Show file information
+      - name: Show (masked) token
         run: |
-          ls test.bin
+          echo "Masked token ${{ steps.google-token.outputs.token }}"
      
