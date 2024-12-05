@@ -3,7 +3,7 @@ appId: com.argonav
 - runScript: Login.js
 - launchApp
 - extendedWaitUntil:
-    visible: id: ${output.login.signInButton} # or any other selector
+    visible: ${output.login.signInButton} # or any other selector
     timeout: 10000      # Timeout in milliseconds
 - assertVisible: 
     id: ${output.login.signInButton}
